@@ -1,4 +1,4 @@
-package com.example.demo.resources;
+package com.devsuperior.resources;
 
 import java.util.List;
 
@@ -9,8 +9,8 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.example.demo.entities.Worker;
-import com.example.demo.repositories.WorkerRepository;
+import com.devsuperior.entities.Worker;
+import com.devsuperior.repositories.WorkerRepository;
 
 
 @RestController

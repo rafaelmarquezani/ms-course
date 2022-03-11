@@ -1,8 +1,8 @@
-package com.example.demo.repositories;
+package com.devsuperior.repositories;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import com.example.demo.entities.Worker;
+import com.devsuperior.entities.Worker;
 
 public interface WorkerRepository extends JpaRepository<Worker, Long> {
 }
